@@ -1,5 +1,4 @@
 # EmotiCareAI
-![emoticare.ai]("https://github.com/rishikeshydv/EmoticareAI/blob/main/assets/landing.png?raw=true")
 ![emoticare.ai](./assets/landing.png)
 
 ## Overview
