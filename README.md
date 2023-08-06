@@ -1,5 +1,5 @@
 # EmotiCareAI
-![emoticare.ai]("https://github.com/rishikeshydv/EmoticareAI/tree/main/assets/landing.png?raw=true")
+![emoticare.ai]("https://github.com/rishikeshydv/EmoticareAI/blob/main/assets/landing.png?raw=true")
 
 ## Overview
   emoticare.ai is an AI-powered chatbot application designed to assist users with emotional support and mental wellness. The chatbot uses natural language processing (NLP) to understand user input and respond with empathetic and supportive messages.
