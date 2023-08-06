@@ -65,6 +65,5 @@
 ```./nlp/index.ts```runs the server for the NLP service. It is connected to the Flask API using the endpoint ```/sentiment```. It allows user to write their daily journal and get a opinion validating response.
 
 
-
-
-
+## Roadmap for this project:
+This is just the first version of the project. We are looking forward to enhance the front-end and improve the accuracy of Deep Learning Model. We also want to add more features and test it in real life world.
