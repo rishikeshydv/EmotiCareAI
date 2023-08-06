@@ -29,7 +29,7 @@
     ```
   The web app will be accessible at http://localhost:3000.
 
-### 3. Technology Stack for Frontend
+### 3. Technology Stack for Backend
 
   * Nextjs - A React Framework
   * Zustand - A state management library
