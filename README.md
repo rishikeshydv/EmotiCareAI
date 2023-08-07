@@ -2,7 +2,7 @@
 ![emoticare.ai](./assets/landing.png)
 
 ## Overview 
-```emoticare.ai``` is a persistent, fault tolerant and powerful AI-based mental health counseling platform with 3 consistently trained Deep Learning Models to analyze daily journaling text-sentiment through Natural Language Processing, human mood via real-time facial features detection using OpenCV open-source framework, and help users express and validate their emotions to the emoticare AI-Psychiatrist bot. RESTAPI acts as a bridge between server and model.
+```emoticare.ai``` is a persistent, fault tolerant and powerful AI-based mental health counseling platform with 3 consistently trained ```Deep Learning Models``` to analyze daily journaling text-sentiment through ```Natural Language Processing```, human mood via real-time facial features detection using ```OpenCV``` open-source framework, and help users express and validate their emotions to the emoticare ```AI-Psychiatrist``` bot. ```RESTAPI``` acts as a bridge between server and model.
 
 ## Frontend
 
