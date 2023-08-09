@@ -65,7 +65,7 @@
 ```./nlp/index.ts```runs the server for the NLP service. It is connected to the Flask API using the endpoint ```/sentiment```. It allows user to write their daily journal and get a opinion validating response.
 
 ## Devops
-###Tools Used 
+### Tools Used 
 * Docker
 * Kubernetes
 
