@@ -65,7 +65,7 @@
 ```./nlp/index.ts```runs the server for the NLP service. It is connected to the Flask API using the endpoint ```/sentiment```. It allows user to write their daily journal and get a opinion validating response.
 
 ## Datasets Used
-### icml_face_data.csv
+* icml_face_data.csv
 
 ## Algorithms/Models Used
 * nlptown/bert-base-multilingual-uncased-sentiment
