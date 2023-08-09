@@ -4,30 +4,51 @@
 ## Overview 
 ```emoticare.ai``` is a persistent, fault tolerant and powerful AI-based mental health counseling platform with 3 consistently trained ```Deep Learning Models``` to analyze daily journaling text-sentiment through ```Natural Language Processing```, human mood via real-time facial features detection using ```OpenCV``` open-source framework, and help users express and validate their emotions to the emoticare ```AI-Psychiatrist``` bot. ```RESTAPI``` acts as a bridge between server and model.
 
-## Frontend
-
-### 1. Getting Started
-   Prerequisites 
-  Before proceeding with the installation, ensure that you have the following prerequisites:
-
-  * Node (v12 or higher)
-  * npm
-  * Internet connection to fetch dependencies
-
-### 2. Installation
-     
-  To install the Emoticare.AI web app, follow these steps:
-     
-  * Clone the repository from the GitHub repository.
-  * Navigate to the project directory.
-  * Run npm install to install the required dependencies.
-  * Running the Web App
-    To run the Emoticare.AI web app locally, execute the following command:
-
-    ```
+## Frontend Setup
+   ##### 1. To start the frontend, navigate to the nextjs folder:
+   ```
+      cd nextjs
+   ```
+   ##### 2. Install all frontend dependencies:
+   ```
+      npm install
+   ```
+   ##### 3. Start the frontend development server:
+   ```
       npm run dev
-    ```
-  The web app will be accessible at http://localhost:3000.
+   ```
+   ##### 4. Access the app in your browser by visiting: http://localhost:3000
+   ##### 5. To access all app features, including the dashboard, go to: http://localhost:3000/dashboard
+
+
+## Backend Setup
+   
+   ### Flask API (Chat Functionality)
+   #### 1. To run the Flask API for chat functionality, navigate to the chatbot folder:
+   ```
+      cd chatbot
+   ```
+   #### 2. Set the Flask app environment variable:
+   ```
+      export FLASK_APP=deploy.py
+   ```
+   #### 3. Run the Flask server:
+   ```
+      flask run
+   ```
+   The Flask server runs on port 5005.
+
+   ### TypeScript Server (Connected to Flask API)
+   #### 1. While still in the chatbot folder, run the TypeScript server:
+   ```
+      npx ts-node server.ts
+   ```
+   The TypeScript server is connected to the Flask API and runs on port 3006.
+   #### 2. In your browser, visit http://localhost:3000/dashboard/chat to test the chat feature and observe AI responses.
+
+Please note that the TypeScript server is intricately connected to the Flask API, facilitating communication between the frontend and backend components. Ensure that you have all the necessary dependencies installed before running the app components. If you encounter any issues during setup, please refer to the troubleshooting section or reach out to our support channels.
+      
+
 
 ### 3. Technology Stack for Backend
 
